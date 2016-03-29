@@ -1,1 +1,1 @@
-web: java -jar build/lib/*.jar
+web: java -jar build/libs/*.jar
