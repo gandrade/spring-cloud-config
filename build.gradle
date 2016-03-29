@@ -55,11 +55,6 @@ bootRepackage {
 	mainClass = 'org.test.ConfigServerApplication'
 }
 
-springBoot {
-	mainClass = 'org.test.ConfigServerApplication'
-	executable = true
-}
-
 bootRun {
 	addResources = false
 }
