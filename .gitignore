@@ -1,3 +1,8 @@
+build
+.gradle
+.idea
+out
 *.iml
-.idea/
-.gradle/
+*.ipr
+*.iws
+.DS_Store.gradle/
