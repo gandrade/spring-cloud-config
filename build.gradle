@@ -12,8 +12,8 @@ buildscript {
 
 apply plugin: 'java'
 apply plugin: 'eclipse'
-apply plugin: 'spring-boot' 
-
+apply plugin: 'spring-boot'
+defaultTasks 'bootRun'
 jar {
 	baseName = 'config-server'
 	version = '0.0.1-SNAPSHOT'
