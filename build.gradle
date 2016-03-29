@@ -51,6 +51,19 @@ task wrapper(type: Wrapper) {
 	gradleVersion = '2.9'
 }
 
+bootRepackage {
+	mainClass = 'org.test.ConfigServerApplication'
+}
+
+springBoot {
+	mainClass = 'org.test.ConfigServerApplication'
+	executable = true
+}
+
+bootRun {
+	addResources = false
+}
+
 task stage(dependsOn: 'bootRepackage') {
 }
 
